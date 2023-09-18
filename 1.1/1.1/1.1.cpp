@@ -35,7 +35,7 @@ void readAndRemovePositive(vector<int>& arr, const string& filename) {
     arr.clear();
 
     if (!file.is_open()) {
-        cout << "Error opening file " << filename << endl;
+        cout << " Error opening file " << filename << endl;
         return;
     }
 
